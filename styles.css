@@ -1,0 +1,70 @@
+styles.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.categories, .titles {
+    margin: 20px 0;
+}
+
+.categories ul, .titles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li, .titles ul li {
+    margin: 5px 0;
+}
+
+.titles ul li {
+    display: flex;
+    align-items: center;
+}
+
+.titles ul li img {
+    max-width: 50px;
+    margin-right: 10px;
+}
